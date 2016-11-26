@@ -9,6 +9,9 @@ new Vue({
         actualizar_coordenadas: function(e){
             this.x = e.clientX;
             this.y = e.clientY;           
+        },
+        alertame:function(){
+            alert("Alerta");
         }
 
     }
